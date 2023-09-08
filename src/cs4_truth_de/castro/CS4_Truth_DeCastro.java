@@ -16,11 +16,34 @@ public class CS4_Truth_DeCastro {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        String activation = "Pulling...";
-        System.out.println(activation + " You just got a 5 star!");
+        String nilou = "Nilou";
+        int days_using_nilou = 302;
+        double nilou_level = 90;
         
-        String benett = "Benett. A Pyro 4 star Sword user from the region of Mondstadt.";
-        String hu_tao = "Hu Tao. A Pyro 5 star Polearm user from the region of Liyue."; 
+        String keqing = "Keqing";
+        int days_using_keqing = 54;
+        double keqing_level = 90;
+        
+        String ayaka = "Ayaka";
+        int days_using_ayaka = 46;
+        double ayaka_level = 70;
+   
+        System.out.println("Name: " + nilou);
+        System.out.println("Amount of days playing using Nilou: " + days_using_nilou);
+        System.out.println("Current level: " + nilou_level);
+        
+        System.out.println(""); 
+        
+        System.out.println("Name: " + keqing);
+        System.out.println("Amount of days playing using Keqing: " + days_using_keqing);
+        System.out.println("Current level: " + keqing_level);
+        
+        System.out.println(""); 
+        
+        System.out.println("Name: " + ayaka);
+        System.out.println("Amount of days playing using Ayaka: " + days_using_ayaka);
+        System.out.println("Current level: " + ayaka_level);
+        
+        System.out.println(""); 
+       }
     }
-    
-}
